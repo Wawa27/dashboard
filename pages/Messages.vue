@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import SideMenu from "~/components/side-menu/SideMenu.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="flex min-h-screen w-full">
-    <SideMenu />
-  </div>
+  <div class="flex min-h-screen w-full"></div>
 </template>
 
 <style scoped></style>
