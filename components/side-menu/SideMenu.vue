@@ -4,7 +4,7 @@ import PrimaryButton from "~/components/PrimaryButton.vue";
 </script>
 
 <template>
-  <div class="flex h-screen w-52 flex-col justify-between bg-white pt-8">
+  <div class="flex h-screen w-60 flex-col justify-between bg-white pt-8">
     <div class="flex flex-col">
       <img
         class="self-center"
@@ -21,7 +21,7 @@ import PrimaryButton from "~/components/PrimaryButton.vue";
         <SideMenuLink
           icon-path="icons/Notification.png"
           pageName="Notifications"
-          notification-count="40"
+          :notification-count="40"
         />
         <SideMenuLink icon-path="icons/Setting.png" pageName="Settings" />
       </div>
